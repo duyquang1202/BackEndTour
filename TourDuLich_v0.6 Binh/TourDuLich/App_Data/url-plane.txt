@@ -1,0 +1,2 @@
+http://localhost:40829/Service.svc/api/vietnamairline
+http://localhost:40829/Service.svc/api/vietjetair

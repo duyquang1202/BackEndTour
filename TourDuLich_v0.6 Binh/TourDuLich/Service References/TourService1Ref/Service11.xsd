@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TourService1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TourService1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfKhachSan">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KhachSan" nillable="true" type="tns:KhachSan" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKhachSan" nillable="true" type="tns:ArrayOfKhachSan" />
+  <xs:complexType name="KhachSan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="diadiem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="gia" type="xs:double" />
+      <xs:element minOccurs="0" name="kichthuoc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="loai" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sogiuong" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KhachSan" nillable="true" type="tns:KhachSan" />
+  <xs:complexType name="ArrayOfXeKhach">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="XeKhach" nillable="true" type="tns:XeKhach" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfXeKhach" nillable="true" type="tns:ArrayOfXeKhach" />
+  <xs:complexType name="XeKhach">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="XeKhach" nillable="true" type="tns:XeKhach" />
+  <xs:complexType name="ArrayOfXeLua">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="XeLua" nillable="true" type="tns:XeLua" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfXeLua" nillable="true" type="tns:ArrayOfXeLua" />
+  <xs:complexType name="XeLua">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="XeLua" nillable="true" type="tns:XeLua" />
+  <xs:complexType name="ArrayOfMayBay">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MayBay" nillable="true" type="tns:MayBay" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMayBay" nillable="true" type="tns:ArrayOfMayBay" />
+  <xs:complexType name="MayBay">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="MayBay" nillable="true" type="tns:MayBay" />
+</xs:schema>

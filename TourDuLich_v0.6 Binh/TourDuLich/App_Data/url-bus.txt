@@ -1,0 +1,2 @@
+http://localhost:42530/Service1.svc/api/mailinhexpress
+http://localhost:40829/Service.svc/api/phuongtrangexpress

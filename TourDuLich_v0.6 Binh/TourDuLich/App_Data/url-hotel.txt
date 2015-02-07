@@ -1,0 +1,2 @@
+http://localhost:42701/Service1.svc/api/hotelcalifornia
+http://localhost:40829/Service.svc/api/newworld

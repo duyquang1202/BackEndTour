@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotel>
+  <room>
+    <diadiem>Nha Trang</diadiem>
+    <loai>Standard</loai>
+    <kichthuoc>Double</kichthuoc>
+    <sogiuong>2</sogiuong>
+    <gia>700.000</gia>
+  </room>
+  <room>
+    <diadiem>Mui Ne</diadiem>
+    <loai>Deluxe</loai>
+    <kichthuoc>Double</kichthuoc>
+    <sogiuong>2</sogiuong>
+    <gia>700.000</gia>
+  </room>
+  <room>
+    <diadiem>Da Lat</diadiem>
+    <loai>Standard</loai>
+    <kichthuoc>Quad</kichthuoc>
+    <sogiuong>1</sogiuong>
+    <gia>900.000</gia>
+  </room>
+  <room>
+    <diadiem>Da Lat</diadiem>
+    <loai>Deluxe</loai>
+    <kichthuoc>Quad</kichthuoc>
+    <sogiuong>2</sogiuong>
+    <gia>1.000.000</gia>
+  </room>
+  <room>
+    <diadiem>Da Lat</diadiem>
+    <loai>Family suite</loai>
+    <kichthuoc>Quad</kichthuoc>
+    <sogiuong>3</sogiuong>
+    <gia>1.200.000</gia>
+  </room>
+</Hotel>
